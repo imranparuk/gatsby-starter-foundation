@@ -16,7 +16,7 @@
   align-items: center;
   position: relative;
   background: var(--header-bg);
-  padding: 30px 20px;
+  padding: 5px 20px;
 }
 .site-navigation {
   ul {
@@ -29,14 +29,14 @@
     margin-left: 20px;
   }
   a {
-    color: rgba(255,255,255,0.6);
+    color: rgba(0,0,0,0.6);
     text-decoration: none;
     &:hover {
-      color: rgba(255,255,255,0.8);
+      color: rgba(0,0,0,0.8);
     }
   }
   a[aria-current="page"] {
-    color: rgba(255,255,255,1)
+    color: rgba(0,0,0,1)
   }
   .menu-trigger {
     display: none;
@@ -434,5 +434,5 @@ article img {
 @import "utility";
 
 // Libraries
-@import "lib/prism-default"
+@import 'lib/prism-default'
 
